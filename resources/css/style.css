@@ -56,6 +56,73 @@
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
 }
+.bloc4{
+    flex: 33%;
+    padding: 2px;
+    background: #000000;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
+.bloc5{
+    flex: 33%;
+    padding: 2px;
+    background: #000000;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
+
+.bloc-table2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*flex-wrap: wrap;*/
+    padding: 20px;
+    z-index: 1;
+}
+.bloc11{
+    flex: 33%;
+    padding: 2px;
+    background: #000000;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
+.bloc12{
+    flex: 33%;
+    padding: 2px;
+    background: #000000;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
 .table{
     margin: 10px;
 }

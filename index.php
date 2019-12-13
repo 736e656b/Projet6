@@ -17,7 +17,7 @@
         <div class="bloc1">
             <div class="table">
                 <a href="traitement.php?plat=test1&prix=1.1">
-                    <img class="entrée" src="resources/images/test.png">
+                    <img class="plat" src="resources/images/test.png">
                 </a>
             </div>
         </div>
@@ -31,14 +31,42 @@
         <div class="bloc3">
             <div class="table">
                 <a href="traitement.php?plat=test3&prix=1.1">
-                    <img class="desert" src="resources/images/test.png">
+                    <img class="plat" src="resources/images/test.png">
+                </a>
+            </div>
+        </div>
+        <div class="bloc4">
+            <div class="table">
+                <a href="traitement.php?plat=test4&prix=1.1">
+                    <img class="plat" src="resources/images/test.png">
+                </a>
+            </div>
+        </div>
+        <div class="bloc5">
+            <div class="table">
+                <a href="traitement.php?plat=test5&prix=1.1">
+                    <img class="plat" src="resources/images/test.png">
                 </a>
             </div>
         </div>
     </div>
 </form>
+
+<div class="bloc-table2">
+    <div class="bloc11">
+        <div class="table">
+            <h1>Liste commande</h1>
+        </div>
+    </div>
+    <div class="bloc12">
+        <div class="table">
+            <h2>Total:</h2>
+        </div>
+    </div>
+</div>
+
+
 <i class="far fa-grin-tongue-squint"></i>
-<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
 <div class="footer">
     <a>Crée par</a>
 </div>

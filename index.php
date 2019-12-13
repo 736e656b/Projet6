@@ -9,10 +9,19 @@
 </head>
 <body>
 
+<?php
+// Si l'étiquette 'plat' n'existe pas encore dans le tableau associatif $_GET (premier appel au fichier)
+if (!isset($_REQUEST['plat'])) {
+    $_REQUEST["plat"]="";
+    $_REQUEST["prix"]=0;
+    $total=0;
+}
+?>
+
 <div class="header">
     <h1>Nom restaurant</h1>
 </div>
-<form action="index.php" method="get">
+<form action="index.php" method="post">
     <div class="bloc-table">
         <div class="bloc1">
             <div class="table">
@@ -56,11 +65,40 @@
     <div class="bloc11">
         <div class="table">
             <h1>Liste commande</h1>
+            <?php
+            $commande="";
+            $prix="";
+
+            $commande = $_REQUEST['plat'];
+            $prix = $_REQUEST['prix'];
+            $liste_commande_prix= array($commande => $prix );
+            $liste_commande = array_push($liste_commande_prix,$commande,$prix);
+
+            if ($commande != "")
+            {
+
+                //echo "-" . $commande . "    " . $prix;
+                foreach ($test as $commande => $prix)
+                {
+                    echo "l'article " . $commande . " vaut " . $prix . "\n";
+                    echo "<br>";
+                }
+            }
+            else
+            {
+                echo "";
+            }
+            ?>
         </div>
     </div>
     <div class="bloc12">
         <div class="table">
             <h2>Total:</h2>
+            <?php
+
+            //$total=$total+$prix;
+            echo $total;
+            ?>
         </div>
     </div>
 </div>

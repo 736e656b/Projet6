@@ -1,0 +1,184 @@
+body {
+	background-image: url(Images/bg.png);
+	font-family: Helvetica, Segoe UI, Arial;
+	text-shadow:0px 2px 0px #000000;
+	color: #ffffff;
+	font-weight: 12px;
+}
+
+@font-face {
+	
+	font-family:Helvetica; src:url('fonts/Helvetica.ttf');
+	font-family:aida; src:url('fonts/aida.ttf');
+}
+
+
+.logo{
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright:0px;
+	-moz-border-radius-bottomleft:28px;
+	-moz-border-radius-bottomright:28px;
+	-webkit-border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-bottom-left-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:28px;
+	border-bottom-right-radius:28px;
+	-moz-box-shadow:inset 0px 0px 9px #0f1013;
+    	-webkit-box-shadow:inset 0px 0px 9px #0f1013;
+    	box-shadow:inset 0px 0px 9px #0f1013;
+	background:url(Images/logo-bg.png) center;
+	background-repeat:repeat;
+	height:13%;
+	width:auto;
+	border-color:#5998;
+	margin-top:-1%;
+	margin-left:1.5%;
+}
+
+h2{
+	font-family:Helvetica ,Arial;
+	font-size:17px;
+	font-variant:small-caps;
+	background-image:url(Images/bg.png);
+	-moz-box-shadow: 0px 5px 9px #0f1013;
+	-webkit-box-shadow: 0px 5px 9px #0f1013;
+	box-shadow: 0px 5px 9px #0f1013;
+	width:94%;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	padding-left:3%;
+
+	
+}
+
+a{
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow:1px 2px 1px #000000;
+}
+
+
+.tab{
+	background:url("Images/milieu.png");
+	-moz-box-shadow:inset 0px 5px 9px #0f1013;
+	-webkit-box-shadow:inset 0px 5px 9px #0f1013;
+	box-shadow:inset 0px 5px 9px #0f1013;
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	width:60%;
+}
+
+td{
+	padding-left:3%;
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+
+}
+
+table{
+	padding-top:2%;
+	padding-bottom:1%;
+	
+}
+
+.plat{
+	margin-bottom:0.3%;
+	margin-right:2%;	
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	HEIGHT:110px; 
+	WIDTH:112px;
+	margin-left:1%;
+}
+
+.plat:hover{
+	-moz-box-shadow:inset 0px 0px 9px #0f1013;
+	-webkit-box-shadow:inset 0px 0px 9px #0f1013;
+   	box-shadow:inset 0px 0px 9px #0f1013;
+	background-image:url(Images/bg.png);
+}
+
+.gauche{
+	margin-top:-14%;
+	margin-right:81%;
+
+
+}
+
+.droite{
+	margin-top:0%;
+	margin-left:80%;
+
+}
+
+.bas{
+	font-family: aida, Arial;
+	margin-top:4.4%;
+	margin-bottom:-55%;
+	font-size:13px;
+	-webkit-border-top-left-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	-moz-box-shadow:inset 0px 0px 9px #0f1013;
+    	-webkit-box-shadow:inset 0px 0px 9px #0f1013;
+   	box-shadow:inset 0px 0px 9px #0f1013;
+	background:url("Images/milieu.png");
+	width:20%;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	padding-bottom:0.5%;
+	
+}
+
+.contenu{
+	-moz-box-shadow:inset 0px 0px 9px #0f1013;
+    	-webkit-box-shadow:inset 0px 0px 9px #0f1013;
+    	box-shadow:inset 0px 0px 9px #0f1013;
+	background:url("Images/milieu.png");
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	margin-top:0%;
+	margin-left:3%;	
+	height:auto;
+	width:auto;
+	padding-top:9px;
+	padding-bottom:3%;
+	font-size:12px;
+
+}
+
+.prix{
+	-moz-box-shadow:inset 0px 0px 9px #0f1013;
+  	-webkit-box-shadow:inset 0px 0px 9px #0f1013;
+    	box-shadow:inset 0px 0px 9px #0f1013;
+	background:url("Images/milieu.png");
+	-webkit-border-top-left-radius: 9px;
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-bottomright: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+	margin-top:2%;
+	margin-left:3%;	
+	height:32px;
+	width:100px;
+	padding-top:9px;
+}

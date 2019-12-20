@@ -32,36 +32,41 @@ else{
     <div class="bloc-table">
         <div class="bloc1">
             <div class="table">
-                <a href="index.php?plat=test1&prix=1.1&total=<?php echo $totalprix; ?>&list=<?php echo $list;?>test1<br>">
-                    <img class="plat" src="resources/images/test.png">
+                <a href="index.php?plat=menu%20varié%20SKY&prix=1.1&total=<?php echo $totalprix; ?>&list=<?php echo $list;?>menu%20varié%20SKY<br>">
+                    <img class="plat" src="resources/images/menu varié SKY.jpg">
+                    menu varié SKY
                 </a>
             </div>
         </div>
         <div class="bloc2">
             <div class="table">
-                <a href="index.php?plat=test2&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>test2<br>">
-                    <img class="plat" src="resources/images/test.png">
+                <a href="index.php?plat=menu%20varié%20DUO&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>menu%20varié%20DUO<br>">
+                    <img class="plat" src="resources/images/menu varié DUO.jpg">
+                    menu varié DUO
                 </a>
             </div>
         </div>
         <div class="bloc3">
             <div class="table">
-                <a href="index.php?plat=test3&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>test3<br>">
-                    <img class="plat" src="resources/images/test.png">
+                <a href="index.php?plat=brochettes%20mix&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>brochettes%20mix<br>">
+                    <img class="plat" src="resources/images/brochettes mix.jpg">
+                    brochettes mix
                 </a>
             </div>
         </div>
         <div class="bloc4">
             <div class="table">
-                <a href="index.php?plat=test4&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>test4<br>">
-                    <img class="plat" src="resources/images/test.png">
+                <a href="index.php?plat=menu%20Max%20(20%20Pieces)&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>menu%20Max%20(20%20Pieces)<br>">
+                    <img class="plat" src="resources/images/menu Max (20 Pieces).jpg">
+                    menu Max (20 Pieces)
                 </a>
             </div>
         </div>
         <div class="bloc5">
             <div class="table">
-                <a href="index.php?plat=test5&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>test5<br>">
-                    <img class="plat" src="resources/images/test.png">
+                <a href="index.php?plat=menu%20Max%20(40%20Pieces)&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>menu%20Max%20(40%20Pieces)<br>">
+                    <img class="plat" src="resources/images/menu Max (40 Pieces).jpg">
+                    menu Max (40 Pieces)               
                 </a>
             </div>
         </div>
@@ -82,9 +87,10 @@ else{
             <h2>Total:</h2>
             <?php
             if ($_REQUEST["plat"] !=""){
-                echo $totalprix;
+                echo $totalprix." €";
             }
             ?>
+            <div class="bloc-table3"><div class="bloc13"><div class="table"><a href="index.php">Annuler la Commande</a></div></div></div>
         </div>
     </div>
 </div>

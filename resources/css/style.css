@@ -1,7 +1,32 @@
-.header{
+body{font-family: Helvetica, sans-serif;
+    font-weight: 600;
+
+
+
+}
+.header {
     text-align: center;
-    padding: 20px;
-    background: #ffffff;
+    top: -10px;
+ margin: -22px -22px 70px -22px;
+  
+  
+    background: #ed3b59;
+    color: white;
+    box-shadow: 1px 1px 10px black;
+    font-family: Helvetica, sans-serif;
+}
+
+.header h1{
+    padding: 10px;
+  
+    background: #ed3b59;
+    color: white;
+
+}
+@font-face {
+	
+	font-family:Helvetica; src:url('/ressources/fonts/Helvetica.ttf');
+	font-family:aida; src:url('/ressources/fonts/aida.ttf');
 }
 
 .bloc-table{
@@ -16,73 +41,62 @@
 }
 .bloc1{
     flex: 33%;
-    padding: 2px;
-    background: #000000;
-    overflow: hidden;
+    width: 16.5%;
+    margin-bottom: 25px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
+    margin-right: 15px;
+    
 }
+
+.bloc1:hover a,.bloc2:hover a,.bloc3:hover a,.bloc4:hover a,.bloc5:hover a{
+    color: #ed3b59;
+}
+.bloc1:hover,.bloc2:hover,.bloc3:hover,.bloc4:hover,.bloc5:hover{
+    transform: scale(1.05);
+}
+
 .bloc2{
     flex: 33%;
-    padding: 2px;
-    background: #000000;
-    overflow: hidden;
+    width: 16.5%;
+    margin-bottom: 25px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
+    margin-right: 15px;
 }
 .bloc3{
     flex: 33%;
-    padding: 2px;
-    background: #000000;
-    overflow: hidden;
+    width: 16.5%;
+    margin-bottom: 25px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
+    margin-right: 15px;
 }
-.bloc4{
+.bloc4 {
     flex: 33%;
-    padding: 2px;
-    background: #000000;
-    overflow: hidden;
+    width: 16.5%;
+    margin-bottom: 25px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
+    margin-right: 15px;
 }
 .bloc5{
     flex: 33%;
-    padding: 2px;
-    background: #000000;
-    overflow: hidden;
+    width: 16.5%;
+    margin-bottom: 25px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
+    margin-right: 15px;
 }
 
 .bloc-table2{
@@ -94,27 +108,32 @@
     /*flex-wrap: wrap;*/
     padding: 20px;
     z-index: 1;
+    
 }
 .bloc11{
     flex: 33%;
+    
     padding: 2px;
-    background: #ffffff;
+    background: white;
+    border: ridge #ed3b59 10px;
     overflow: hidden;
     text-align: center;
     position: relative;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 100px;
     border-radius: 10px;
     box-shadow: 1px 1px 12px black;
 }
 .bloc12{
-    flex: 33%;
+    
     padding: 2px;
-    background: #ffffff;
+    border: ridge #ed3b59 10px;
     overflow: hidden;
-    text-align: center;
+    height: 100px;
+    width: 300px;
+    text-align: right;
     position: relative;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -125,4 +144,39 @@
 }
 .table{
     margin: 10px;
+}
+.bloc12 h2{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+
+width: 100%;
+
+
+}
+.bloc13{
+    padding: 2px;
+    
+    
+    overflow: hidden;
+    background-color: #ed3b59;
+    
+    height: 40px;
+    width: 24%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
+.bloc13 a{
+    color:white ;
 }

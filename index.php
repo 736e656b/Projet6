@@ -98,7 +98,7 @@ else{
 
 <i class="far fa-grin-tongue-squint"></i>
 <div class="footer">
-    <a>Crée par</a>
+    <a>Crée par François, Nicolas, Eliep</a>
 </div>
 </body>
 </html>

@@ -65,7 +65,7 @@ else{
         <div class="bloc5">
             <div class="table">
                 <a href="index.php?plat=menu%20Max%20(40%20Pieces)&prix=1.1&total=<?php echo $totalprix?>&list=<?php echo $list;?>menu%20Max%20(40%20Pieces)<br>">
-                    <img class="plat" src="resources/images/menu Max (40 Pieces).jpg">
+                    <img class="plat" src="resources/images/menu Max (40 pieces).jpg">
                     menu Max (40 Pieces)               
                 </a>
             </div>

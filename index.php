@@ -90,10 +90,16 @@ else{
                 echo $totalprix." €";
             }
             ?>
-            <div class="bloc-table3"><div class="bloc13"><div class="table"><a href="index.php">Annuler la Commande</a></div></div></div>
+        </div>
+    </div>
+    <div class="bloc13">
+        <div class="table">
+            <a href="index.php">Annuler la Commande</a>
         </div>
     </div>
 </div>
+
+
 
 
 <i class="far fa-grin-tongue-squint"></i>
